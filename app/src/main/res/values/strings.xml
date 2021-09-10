@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">inventario</string>
+
+
+    <string-array name="name_players">
+        <item>Lionel Messi</item>
+        <item>Cristiano Ronaldo</item>
+        <item>Neymar Jr</item>
+        <item>Memphis Depay</item>
+    </string-array>
+    <string-array name="description">
+        <item>This is a ramdom description</item>
+        <item>This is a ramdom description</item>
+        <item>This is a ramdom description</item>
+        <item>This is a ramdom description</item>
+    </string-array>
 </resources>
