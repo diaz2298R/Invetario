@@ -19,12 +19,12 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        Post post  = (Post) getIntent().getSerializableExtra("postDetail");
+        //Post post  = (Post) getIntent().getSerializableExtra("postDetail");
         title = findViewById(R.id.title);
         description = findViewById(R.id.description);
 
-        title.setText(post.getTitle());
-        description.setText(post.getBody());
+       // title.setText(post.getTitle());
+       // description.setText(post.getBody());
 
     }
 
